@@ -31,6 +31,16 @@ public class Human implements IHumanAction {
 
     }
 
+    private String getNum(){
+
+        return null;
+    }
+
+    protected int  getNum(int a){
+
+        return 1;
+    }
+
     public int getAge() {
         return age;
     }
